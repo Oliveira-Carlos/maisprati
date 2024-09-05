@@ -153,23 +153,81 @@ prompt = require("prompt-sync")()
 
 // 8. Escreva um algoritmo para ler 2 valores (considere que não serão lidos valores iguais)
 // e escreve-los em ordem crescente.
+// let num1 = prompt("Enter the first number:")
+// let num2 = prompt("Enter the second number:")
+// num1 = parseFloat(num1.replace(',', '.'))
+// num2 = parseFloat(num2.replace(',', '.'))
+// if (num1 < num2) {
+//     console.log(num1, num2)
+// } else {
+//     console.log(num2, num1)
+// }
 
 // 9. Implemente um programa que exibe uma contagem regressiva de 10 até 1 no console
 // utilizando um loop for.
+// for (let i = 10; i >= 1; i--) {
+//     console.log(i);
+// }
 
 // 10. Escreva um algoritmo para ler um número inteiro e escrevê-lo na tela 10 vezes.
+// let number = prompt("Enter a number:")
+// number = parseInt(number)
+// for (let i = 0; i < 10; i++) {
+//     console.log(number)
+// }
+
 
 // 11. Escreva um programa que solicita ao usuário 5 números e calcula a soma total
 // utilizando um loop for.
+// let numbers = []
+// for (let i = 0; i < 5; i++) {
+//     let number = prompt(`Enter the ${i + 1} number: `)
+//     number = parseFloat(number.replace(',', '.'))
+//     numbers.push(number)
+// }
+// let sum = numbers.reduce((a, b) => a + b, 0)
+// console.log(sum)
 
 // 12. Crie um programa que exibe a tabuada de um número fornecido pelo usuário (de 1 a
 // 10) utilizando um loop for.
+// let number = prompt("Enter a number:")
+// number = parseInt(number)
+// for (let i = 1; i <= 10; i++) {
+//     console.log(`${number} x ${i} = ${number * i}`)
+// }
+
 
 // 13. Fazer um algoritmo para receber números decimais até que o usuário digite 0 e fazer
 // a média aritmética desses números.
+// let numbers = []
+// let sum = 0
+// while (true) {
+//     let number = prompt("Enter a number (0 to stop): ")
+//     number = parseFloat(number.replace(',', '.'))
+//     if (number === 0) {
+//         break
+//     }
+//     numbers.push(number)
+//     sum += number
+// }
+// let average = sum / numbers.length
+// console.log(average)
 
 // 14. Crie um programa que calcula o fatorial de um número fornecido pelo usuário
 // utilizando um loop for ou while.
+// let numberUser = Number(prompt("enter a number to find out its factorial"))
+// let factorial = 1
+// let i = 1
+// while (i <= numberUser) {
+//     factorial *= i
+//     i++
+//     }
+//     console.log(factorial)
 
 // 15. Escreva um programa que gera e imprime os primeiros 10 números da sequência de
 // Fibonacci utilizando um loop for.
+// let sequence = [0, 1]
+// for (let i = 2; i < 10; i++) {
+//     sequence.push(sequence[i - 1] + sequence[i - 2])
+//     }
+//     console.log(sequence) 
