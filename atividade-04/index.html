@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Terra Média Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.0/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+
+    <!-- Swiper.js -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- AOS.js -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <div class="logo">
+                <img src="src/images/logo-hobbit.png" alt="Logo da Terra Média">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#testimonials">Testemunhos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+            <a href="#contact" class="cta-btn">Entre em Contato</a>
+        </div>
+    </header>
+
+    <!-- Banner Principal / Slider -->
+    <section id="banner">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="images/hobbit1.jpg" alt="1">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/hobbit2.jpg" alt="2">
+                </div>
+                <div class="swiper-slide">
+                    <img src="images/hobbit3.jpg" alt="3">
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <!-- Seção "Sobre" -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <p>A Terra Média é um local repleto de aventuras e mistérios. Conheça mais sobre nossos serviços que conectam os clientes às maravilhas desse mundo.</p>
+        </div>
+    </section>
+
+    <!-- Seção "Serviços" -->
+    <section id="services" class="section">
+        <div class="container">
+            <h2>Nossos Serviços</h2>
+            <div id="services-list" class="service-cards">
+                <!-- Conteúdo populado pela API -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção "Testemunhos" -->
+    <section id="testimonials" class="section">
+        <div class="container">
+            <h2>O que dizem nossos clientes</h2>
+            <div id="testimonials-list">
+                <!-- Conteúdo populado pela API ou estático -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção "Contato" -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contato</h2>
+            <form id="contact-form">
+                <input type="text" id="name" placeholder="Nome" required>
+                <input type="email" id="email" placeholder="E-mail" required>
+                <input type="text" id="phone" placeholder="Telefone">
+                <textarea id="message" placeholder="Mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Terra Média. Todos os direitos reservados.</p>
+            <ul>
+                <li><a href="#">Termos de Uso</a></li>
+                <li><a href="#">Política de Privacidade</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.0/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
